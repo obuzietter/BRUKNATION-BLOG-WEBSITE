@@ -1,3 +1,12 @@
+:root {
+    --pink: #f70776;
+  
+    --red: #c3195d;
+  
+    --purple: #680747;
+  
+    --black: #141010;
+  }
 main{
     border: 1px solid red;
     position: relative;
@@ -25,7 +34,8 @@ main{
     border: 1px solid white;
     width: 600px;
     /* padding: 10px; */
-    overflow-x: scroll;
+    overflow-x: hidden;
+    
     scroll-snap-type: x mandatory;
 
   }
@@ -37,4 +47,23 @@ main{
     flex: 0 0 100%;
     scroll-snap-align: start;
   }
-
+/* width */
+::-webkit-scrollbar {
+    width: 2px;
+    height: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--purple); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--black); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
