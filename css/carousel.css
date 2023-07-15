@@ -1,0 +1,40 @@
+main{
+    border: 1px solid red;
+    position: relative;
+    height: 100dvh;
+}
+.carousel {
+    width: 100%;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+  }
+  
+  .carousel-container {
+    position: relative;
+    display: flex;
+    
+    transition: transform 0.5s ease-in-out;
+    border: 1px solid white;
+    width: 600px;
+    /* padding: 10px; */
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+
+  }
+  
+  .carousel-slide {
+    width: 100%;
+    flex-basis: 100%;
+    transition: .5s ease;
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+  }
+

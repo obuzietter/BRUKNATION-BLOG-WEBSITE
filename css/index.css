@@ -1,0 +1,121 @@
+:root {
+  --pink: #f70776;
+
+  --red: #c3195d;
+
+  --purple: #680747;
+
+  --black: #141010;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* border: 1px solid var(--pink); */
+    color: white;
+}
+body{
+    background-color: var(--black);
+    position: relative;
+}
+aside{
+position: absolute;
+right: 0;
+top: 0;
+
+/* padding: 0px 10px; */
+/* background-color: #680747; */
+width: 350px;
+max-width: 350px;
+overflow-x: hidden;
+
+
+}
+/* aside:hover .hide{
+    position: relative;
+    margin-left: 0px;
+    opacity: 1;
+} */
+/* aside:hover body{
+    background-color: #f70776;
+} */
+aside .close-open{
+    display: flex;
+    justify-content: flex-end;
+    /* border: 1px solid white; */
+    transition: .2s linear;
+    
+    
+    /* margin: 10px 0px; */
+}
+/* aside .close-open:hover body{
+    background-color: #680747;
+} */
+aside .close-open i{
+    width: 35px;
+    height: 35px;
+    display: grid;
+    place-items: center;
+    
+}
+aside .close-open #close{
+    display: none;
+    
+    
+}
+
+aside .navigation{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+aside .navigation span{
+    font-size: 1.5rem;
+}
+aside .brief{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+aside .brief .image{
+    width: 250px;
+    height: 80%;
+    
+}
+aside .brief .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+aside .brief .description{
+    width: 250px;
+}
+aside .brief .description h4, aside .brief .description p{
+    text-align: center;
+    margin: 10px;
+}
+
+aside .socials{
+    justify-self: baseline;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+aside .socials i{
+    width: 35px;
+    height: 35px;
+    display: grid;
+    place-items: center;
+}
+.hide{
+    /* position: absolute; */
+    margin-left: 10000px;
+    transition: .2s ease-in-out;
+    background-color: var(--purple);
+    
+}
