@@ -119,3 +119,28 @@ aside .socials i{
     background-color: var(--purple);
     
 }
+
+main .carousel .hero{
+    /* border: 1px white solid; */
+    min-width: 300px;
+    max-width: 600px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+main .carousel .hero h1{
+    font-size: 3rem;
+}
+main .carousel .hero p{
+    font-size: 1.5rem;
+}
+main .carousel .hero h1, main .carousel .hero p{
+    margin: 10px 0px;
+}
+main .carousel .hero p a{
+    transition: .2s ease;
+}
+main .carousel .hero p a:hover{
+    color: var(--pink);
+}

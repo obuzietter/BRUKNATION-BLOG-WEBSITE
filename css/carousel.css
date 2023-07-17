@@ -8,7 +8,7 @@
     --black: #141010;
   }
 main{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     position: relative;
     height: 100dvh;
 }
@@ -23,7 +23,7 @@ main{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    overflow: hidden;
+    /* overflow: hidden; */
   }
   
   .carousel-container {
@@ -31,8 +31,10 @@ main{
     display: flex;
     
     transition: transform 0.5s ease-in-out;
-    border: 1px solid white;
-    width: 600px;
+    /* border: 1px solid white; */
+    min-width: 300px;
+    max-width: 600px;
+    /* width: 600px; */
     /* padding: 10px; */
     overflow-x: hidden;
     
@@ -42,7 +44,7 @@ main{
   
   .carousel-slide {
     width: 100%;
-    flex-basis: 100%;
+    /* flex-basis: 100%; */
     transition: .5s ease;
     flex: 0 0 100%;
     scroll-snap-align: start;
