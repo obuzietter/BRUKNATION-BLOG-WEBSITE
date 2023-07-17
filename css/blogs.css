@@ -110,7 +110,9 @@ main .display{
     overflow-y: scroll;
 }
 main .display .body{
-    width: 40%;
+    width: 95%;
+    column-count: 3;
+    column-gap: 40px;
 }
 @keyframes fade-in {
     from{
