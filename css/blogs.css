@@ -24,11 +24,11 @@ body {
 
 .left-menu,
 .right-menu {
-    flex-basis: 20%;
+    width: 300px;
 }
 
 main {
-    flex-basis: 60%;
+    flex-basis: 100%;
 }
 
 .left-menu {
@@ -37,11 +37,18 @@ main {
 
 .left-menu .search-bar {
     padding: 5px;
+    text-align: center;
+}
+.left-menu .search-bar input{
+    width: 80%;
+    color: var(--pink);
 }
 .left-menu .search-results article{
     display: grid;
-    grid-template-rows: 100px 200px;
-    grid-template-columns: 100px 100px;
+    grid-template-rows: 50px 100px;
+    grid-template-columns: 50px 100px;
+    row-gap: 5px;
+    column-gap: 5px;
 }
  .left-menu .search-results article .image{
     grid-column-start: 1;
@@ -69,4 +76,17 @@ height: 100%;
     grid-row-start: 2;
     grid-row-end: 3;
     
+}
+
+article {
+    margin: 20px;
+    cursor: pointer;
+}
+
+article .title{
+    transition: .2s ease;
+}
+
+article:hover .title{
+    color: #c3195d;
 }
