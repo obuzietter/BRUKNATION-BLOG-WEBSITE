@@ -54,7 +54,25 @@ The whole point of this piece is to show how sadness feels like. How it leads to
   date: `October 30, 2020`,
 };
 
-let articles = [article1, article2, article3];
+const article4 = {
+  image: `https://img.freepik.com/free-photo/cute-black-baby-home_23-2149504682.jpg?size=626&ext=jpg&ga=GA1.1.328877591.1686104943&semt=ais`,
+  title: `JUST THOUGHTS`,
+  body:`It is beautiful today. The silence and peace. This is what they call inner peace I think. It's a Saturday it's pretty hot outside but I actually feel cool.
+  Just from the shower. You can imagine,ice cold water in this blistering mid day heat. Oh glorious feeling. You should try it some time, especially if you are a comrade from Rongai.
+  So let's talk about this feeling. This beautiful feel of ease and proper comfort. What is it about? Well, for one it's silent here. Other than the sound of water pumps humming away it's silent. 
+  Silence like this brings deep thoughts. It is like a chick hatchery. You know how the environment is specially designed to help in the hatching of eggs. That's how it feels.
+  The silence creates a perfect space for deep thoughts to take center stage. I think about my exploits, they aren't much. Especially when it comes to the fairer sex. Story for another day.
+  Anyway, I have been thinking about my life. I know I sound cliche and outright boring. Just give me a minute to explain. That good? Okay,here we go. So,my life... What about it? For one I have been obsessing over the thought of getting a kid. A daughter to be precise.
+  I think I'll make a good father. I think I've been educated enough in the matters of life to know what examples to set for her. It sounds crazy. A kid like me claiming to be experienced in the issues of life. Oh well,iny head I am experienced at least.
+  Imagine the sheer joy and emotion that comes with a baby girl. Things become serious. No more drama and games. Just becoming serious so that she can have a good life. You know,like I have the chance to make a human being who will maybe one day make more humans. She'll pass on my values, my stories and my beliefs to her children. She might look like the female version of me or maybe she will take after her mother. Oh and she'll pick up things I say. She'll pick up some habits from me. Maybe even interests.
+  I know I know,getting a kid is not all fun and games. I've been toying with the thought though. I don't know if it is a sign from the universe. A sign that if I am not careful in my exploits it'll reward me with a daughter. It'll make me more sensitive and wise to the importance of life and it's seriousness.I'll make me grow up. Haa now that I think about it,let me just kill that thought slowly. Choke it silently as carbon monoxide chokes man...
+  Good day!
+  `,
+  date: `
+  February 20, 2021`
+}
+
+let articles = [article1, article2, article3, article4];
 
 let searchResults = document.querySelector(".search-results");
 
