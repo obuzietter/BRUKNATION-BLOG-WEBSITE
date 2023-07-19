@@ -54,6 +54,7 @@ The whole point of this piece is to show how sadness feels like. How it leads to
   date: `October 30, 2020`,
 };
 
+
 const article4 = {
   image: `https://img.freepik.com/free-photo/cute-black-baby-home_23-2149504682.jpg?size=626&ext=jpg&ga=GA1.1.328877591.1686104943&semt=ais`,
   title: `JUST THOUGHTS`,
@@ -71,8 +72,164 @@ const article4 = {
   date: `
   February 20, 2021`
 }
+const article5 = {
+  image: `https://media.istockphoto.com/id/1418261681/photo/closeup-face-african-sad-thoughtful-teenager-girl-looking-into-distance.webp?b=1&s=170667a&w=0&k=20&c=HlndsZ4FAGlLaRIR1wEyQJoZGqIyJKcCnRjxNOu1T0k=`,
+  title: `ADVERSITY`,
+  body: `
+  Good old rejection is at the top of that list. Often a swift punch right where it hurts. When you first met them the energy was crazy in a good way, when all the signs worked for you. They made you believe that the second party is interested. You interpreted that wrong. Fueled by false hopes and high hopes you made a move. Only that, the other person didn't see you that way. After putting your heart on the fine-thin line you end up devastated. Alone and feeling useless.
+  
+  Don't. Do not dare wake up. Sleep has never been better. You know it's sad, really disheartening that a few days ago you couldn't get even a wink of sleep. The passion  had demolished every single thing on it's path, regular or odd. It took hostage, made you feel its fiery flames and the terror it carries too. The dark. The silence. The chills. The hardest time to be alive, three thirty in the AM. Insomnia. Your beloved prepossessing consort who always  saddles you down. 
+  
+  It was heaven delivered express to you. Custom made,just how you liked it. You were so high. You were surely cruising, love was easy. Love was beautiful and it kept you going. Attraction in its virgin form, utter bliss that sometimes drove you to shear darkness and absolute dementia. 
+  You couldn't see it even if it was coming straight at you. The little things you swept under the rug,the red flags you were quick to shush. They came at you, every skeleton in their closet. They didn't teach it to dance and it came out. Shattering and spattering every little lie you had believed. It went south, it died out but you still fixate. Your fetish for them makes you reminisce and now you can't get a move on. 
+  
+  Most if the time, you cry yourself to sleep. The seductive lust to self damage yourself tugs at your senses. It hankers you to put yourself down, right at rock bottom. Physically or psychologically cohere to it's shout out. You think you are sick. You believe that too. Your mind becomes a prison, the walls of that prison are covered in fabricated deception. It is fiction. 
+  It could be different you know. If you raise your voice and speak up. If you avow that you are fragmented, panic-stricken and insecure by and about certain emotions you will get help. We all have issues, demons and battles we face everyday. That however does not mean that we are alone. Power in numbers, in the words of Alan Walker; we are unity.
+  -Nyagechi
+  `,
+  date: `October 12, 2020`
+}
+const article6 = {
+  image: `https://img.freepik.com/free-photo/3d-render-medical-background-with-vaccine-syringe-fractured-background_1048-13546.jpg?size=626&ext=jpg&ga=GA1.2.328877591.1686104943&semt=ais`,
+  title: `POISON-ANTIDOTE`,
+  body: `
+  Cut me to the core. Still healing. Scars, adorn my heart. The trademark aftermath of pain curved on a fragile heart. Once more it is broken, shuttered and spluttered.
 
-let articles = [article1, article2, article3, article4];
+Should have kept to myself. I found trouble, that's just my fault. For being a believer, fairy tale ending. I wanted nobody but you. Here we are, like we were so far apart. 
+We are both young, our paths are bound to be different. I hate this. To find a new number, a whole different stranger to fill the void.
+
+I'm the one who partly ruined everything. I made you think it's all your fault. It takes two to tango, it takes two wreck a relationship. You and I. I held you up, so high like a flag. So proud, I thought we'd stay that way. Right now you are warming up to another negro. Another night turns to day as I search for a potential disturbance just because I want somebody like you. How to be lonely. I'm scared. Not used to being on my own. Used to being everything another person needs.
+
+The end of us. The bitter metallic taste in my mouth, the empty feeling at the pit of my stomach. The unfamiliar but certain discomfort in my heart. The millions upon millions of questions that race through my young cluttered mind. Nothing can hit me like this. Like you do, walking a tight rope. Thin ice, afraid when it breaks I will freeze unable to catch a breath. Drowning in a bottomless pit.
+
+I'm high like this for you. You somehow also put me down, at  rock bottom. It's alright. I picked my poison, I will get the antidote.
+-Nyagechi
+
+  `,
+  date: `September 16, 2020`
+}
+
+const article7 = {
+  image: `https://img.freepik.com/free-photo/diversity-concept-with-hands_23-2149176200.jpg?size=626&ext=jpg&ga=GA1.2.328877591.1686104943&semt=ais`,
+  title: `WHY DO I HOLD ON TO YOU?`,
+  body: `
+WHY DO I HOLD ON TO YOU?
+
+No more listening to these stupid songs. They all remind me that you are gone. That I let you go, yet I still hold on to you. It's easy to say that I will be out of your way, but it's a whole other game to actually do it.
+I still listen to these stupid songs. They all remind me that I am wrong. If this is it, I'll wish you'd stay with me. I still hold on to you. I let it get too far. As if I don't know where it all went wrong.
+Memories upon memories flood my mind and floor my heart. It's easier to blame you, but I don't want to. This is on me. I'm not okay. I know I should let go but I hold on to you.
+
+-Nyagechi
+
+  `,
+  date: `
+  September 12, 2020
+  `
+}
+
+const article8 = {
+  image: `https://img.freepik.com/free-photo/close-up-pretty-bunch-red-roses_23-2148387992.jpg?size=626&ext=jpg&ga=GA1.2.328877591.1686104943&semt=sph`,
+  title: `  DO OR DIE`,
+  body: `
+  It never fades away.
+  It stays here, the feelings like broken glass inside me.
+  In love there is war. Ours is a battle.
+  It always ends in violence. No matter how great, no matter how sweet it was.
+  
+  The misery. 
+  The heart break every single time.
+  Surreal, that I could be this way.
+  I had high hopes for us.
+  I forgot. Good things fall apart. Always.
+  Heck, I thought I was strong. Bulletproof vest, but I feel every bit of pain.
+  
+  Days go by.
+  I miss you. I hate you at the same time.
+  What was real? I think about you, so much so that it breaks me. Accepting is hard.
+  Velvet rolled down, for you and I.
+  I may never let go.
+  I may never ever try.
+  Am I just afraid to be alone?
+  For you and I, it's do or die.
+  -Nyagechi
+  
+
+  `,
+  date: `
+  September 10, 2020
+  `
+}
+
+const article9 = {
+  image: `https://images.unsplash.com/photo-1596940396010-2283d8c36fce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c2hhdHRlcmVkJTIwZ2xhc3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60`,
+  title: `THE CAVE IN`,
+  body: `
+Intoxicating.
+Suffocating.
+Crashing.
+Kill the lights. The dark will guide you on.
+A drug, out of control.
+Irrational. You are fading.
+Go home. You are alone.
+You seem to forget,that this is real life.
+When you feel the pain, take it in. Flowing in your veins. Tonight, you let it sink.
+Let it flow, pouring out. The dazzling bright light, the feeling of floating has gone dark.
+Somehow you have to crawl out of this state. It will kill you. No right words. No sweet lies.
+This has gone too far.
+Burning inside. Everything you knew, desperate for a change. It is in your blood. This is what you want, what you need. Tiny cracks. All have grown into open fractures. You knew it would happen. What is happiness?
+A lie you feed  your brain. Manufactured in the heart. Of course, the heart. What does it know? Hugh, it runs full speed at it. This illusion it made up. An escape to eutopia. When reality is not worth the thrill. When your heart rips at the seems. It goes into a free fall. When stars don't light.
+All these questions, no choice answers.
+So you are down and just about out.  No more floating, gravity holds you down. You have lost yourself. Spin out. You tried hard to make it last, but it's not supposed to be. Drop by drop, tears bring you to your knees. Perfect, perfection here and now. You know this place. Yes, you do. 
+Familiar curtains, nothing too impressive. You don't know how to forget this place,how can you? Nothing new to report on. It's okay, die in your own arms. Hold yourself, as the curtains close. It's okay, this is right where you are supposed to be. Lay yourself down on the ground. Unending flow of tears. 
+It's okay. As long as you are with you, you aren't alone. You will never be.
+Cross your heart.
+Hope to die.
+Till the end, the ends of time
+-Nyagechi
+
+  `,
+  date: `
+  September 11, 2020
+  `
+}
+const article10 = {
+  image: `https://img.freepik.com/free-photo/people-beach-sunset-girl-is-jumping-against-backdrop-setting-sun_1321-1015.jpg?size=626&ext=jpg&ga=GA1.1.328877591.1686104943&semt=ais`,
+  title: `IT WAS HIM ALL ALONG`,
+  body: `  
+  Alone I was cruising
+  In my lonely heartbreak ship
+  Then you jumped on board
+  You seemed worth the shot
+  Claiming you'll stay for good
+  
+  I gave you not just my heart
+  I gave up my body too
+  To you who who'd care for me
+  Such a shame it ended how it did
+  
+  Even now I wonder why
+  Why you took me in
+  If you were not to keep me
+  In my eyes you were perfect
+  
+  What is perfect though
+  An illusion we feed our minds
+  You played me for a fool
+  You were my obsession
+  
+  It was him that you saw
+  Him that you thought about
+  Him that you missed the most
+  Even when we talked all night long
+  
+  -Nyagechi
+  
+  `,
+  date: `
+  July 01, 2021
+  `
+}
+let articles = [article1, article2, article3, article4, article5, article6, article7, article8, article9, article10];
 
 let searchResults = document.querySelector(".search-results");
 
