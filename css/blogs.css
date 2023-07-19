@@ -12,8 +12,9 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    /* border: 1px solid white; */
+    border: 1px solid white;
     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
 
@@ -21,7 +22,7 @@ body {
     background-color: var(--black);
     /* display: flex; */
     display: grid;
-    grid-template-columns: 300px 3fr 300px;
+    grid-template-columns: 500px 3fr;
     grid-template-rows: 100%;
     height: 100dvh;
     /* border: 4px solid red; */
@@ -42,6 +43,7 @@ main {
     padding: 5px;
     /* border: 1px solid red; */
     overflow-y: scroll;
+    min-width: 400px;
 }
 
 .left-menu .search-bar {
@@ -54,7 +56,10 @@ main {
 .left-menu .search-bar input{
     width: 80%;
     color: var(--pink);
-    font-size: 1.5rem;
+    font-size: 1.1rem;
+    border-radius: 10px;    
+    padding: 0px 5px;
+    margin: 5px;
 }
 .left-menu .search-results article{
     display: grid;
@@ -62,18 +67,21 @@ main {
     grid-template-columns: 50px 100px;
     row-gap: 5px;
     column-gap: 5px;
+    padding: 10px;
 }
  .left-menu .search-results article .image{
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 3;
+    
 
 }
 
 .left-menu .search-results article .image img{
 width: 100%;
 height: 100%;
+border-radius: 50%;
 
 }
 .left-menu .search-results article .title{
@@ -81,6 +89,7 @@ height: 100%;
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
+    text-align: center;
 }
 .left-menu .search-results article .body{
    
@@ -88,6 +97,7 @@ height: 100%;
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 3;
+    text-align: center;
     
 }
 
@@ -119,17 +129,39 @@ main .display{
     /* border: 2px red solid; */
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    /* justify-content: space-evenly; */
     align-items: center;
     animation: fade-in .5s 1 linear;
     overflow-y: scroll;
 }
+main .display .title{
+    margin: 30px;
+    font-size: 1.5rem;
+
+}
+main .display .image{
+    margin: 30px;
+    width: 40%;
+    text-align: center;
+}
+main .display .image img{
+    /* width: 100%; */
+    height: auto;
+}
 main .display .body{
-    width: 45%;
+    width: 50%;
+    margin: 30px;
     /* column-count: 3;
     column-gap: 40px; */
 }
-
+main .display .body p{
+    padding: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+main .display .date{
+    margin: 30px;
+}
 /* width */
 ::-webkit-scrollbar {
     width: 3px;
