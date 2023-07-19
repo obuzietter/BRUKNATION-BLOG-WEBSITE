@@ -1,0 +1,99 @@
+.right-menu {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 350px;
+  /* height: 100vh; */
+  /* overflow-x: hidden; */
+}
+
+.right-menu .close-open {
+  display: flex;
+  justify-content: flex-end;
+  transition: 0.2s linear;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.right-menu .close-open i {
+  width: 35px;
+  height: 35px;
+  display: grid;
+  place-items: center;
+}
+
+.right-menu .close-open #close {
+  display: none;
+}
+
+.right-menu .navigation {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.right-menu .navigation span {
+  font-size: 1.1rem;
+  transition: .2s ease-in-out;
+}
+
+.right-menu .navigation span a{
+    text-decoration: none;
+}
+.right-menu .navigation span a:hover{
+    text-decoration: underline;
+}
+.right-menu .brief {
+  /* height: 400px; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+}
+
+.right-menu .brief .image {
+  /* width: 90%;
+  height: 90%; */
+  margin: 10px;
+}
+
+.right-menu .brief .image img {
+    width: 250px;
+  /* height: 100%; */
+  /* object-fit: cover; */
+}
+
+.right-menu .brief .description {
+  width: 250px;
+  margin: 10px;
+}
+
+.right-menu .brief .description h4,
+a.right-menuide .brief .description p {
+  text-align: center;
+  margin: 10px;
+}
+
+.right-menu .socials {
+  justify-self: baseline;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.right-menu .socials i {
+  width: 35px;
+  height: 35px;
+  display: grid;
+  place-items: center;
+}
+
+.hide {
+  margin-left: 10000px;
+  transition: 0.2s ease-in-out;
+  background-color: var(--purple);
+}
