@@ -1,0 +1,30 @@
+:root {
+    --pink: #f70776;
+  
+    --red: #c3195d;
+  
+    --purple: #680747;
+  
+    --black: #141010;
+  }
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px red solid;
+    color: white;
+    background-color: var(--black)
+}
+body{
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    display: flex;
+    height: 90vh;
+}
+.profile{
+    flex-basis: 40%;
+}
