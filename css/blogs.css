@@ -25,6 +25,7 @@ body {
     grid-template-columns: 400px 3fr;
     grid-template-rows: 100%;
     height: 100dvh;
+    overflow: hidden;
     /* border: 4px solid red; */
 }
 
