@@ -1,46 +1,55 @@
 :root {
-  --pink: #f70776;
+    --pink: #f70776;
 
-  --red: #c3195d;
+    --red: #c3195d;
 
-  --purple: #680747;
+    --purple: #680747;
 
-  --black: #141010;
+    --black: #141010;
 }
-*{
+
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    /* border: 1px solid var(--pink); */
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-body{
+
+body {
     background-color: var(--black);
     position: relative;
+    height: 100vh;
     overflow: hidden;
 }
 
-main .carousel .hero{
+main .carousel .hero {
     min-width: 300px;
     max-width: 600px;
     text-align: center;
     display: flex;
     flex-direction: column;
     padding: 10px;
+    overflow: hidden;
 }
-main .carousel .hero h1{
+
+main .carousel .hero h1 {
     font-size: 3rem;
 }
-main .carousel .hero p{
+
+main .carousel .hero p {
     font-size: 1.5rem;
 }
-main .carousel .hero h1, main .carousel .hero p{
+
+main .carousel .hero h1,
+main .carousel .hero p {
     margin: 10px 0px;
 }
-main .carousel .hero p a{
-    transition: .2s ease;
+
+main .carousel .hero p a {
+    transition: 0.2s ease;
 }
-main .carousel .hero p a:hover{
+
+main .carousel .hero p a:hover {
     color: var(--pink);
 }

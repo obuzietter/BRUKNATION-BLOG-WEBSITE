@@ -1,33 +1,36 @@
 :root {
     --pink: #f70776;
-  
+
     --red: #c3195d;
-  
+
     --purple: #680747;
-  
+
     --black: #141010;
-  }
+}
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* border: 1px red solid; */
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-body{
+
+body {
     height: 100vh;
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    background-color: var(--pink)
+    background-color: var(--pink);
 }
-main{
+
+main {
     display: flex;
     width: 100%;
     height: 90vh;
 }
-main .profile{
+
+main .profile {
     width: 20%;
     display: flex;
     flex-direction: column;
@@ -35,26 +38,56 @@ main .profile{
     justify-content: center;
     background-color: var(--pink);
 }
-main .profile img{
+
+main .profile img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     margin: 20px;
 }
-main .about{
+
+main .about {
     width: 80%;
     display: grid;
     place-items: center;
     padding: 20px 30px;
     background-color: var(--black);
-    
 }
-footer{
+
+footer {
     width: 80%;
-    margin-left: 20%; 
+    margin-left: 20%;
     text-align: center;
     background-color: var(--pink);
     padding: 20px;
-    /* border: 1px solid white;  */
 }
 
+@media only screen and (max-width: 600px) {
+    body {
+        height: auto;
+        overflow: scroll;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    main .profile {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    main .about {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+        background-color: var(--pink);
+        padding: 20px;
+    }
+}

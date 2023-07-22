@@ -14,17 +14,17 @@ setInterval(() => {
     if (slideIndex > slides.length * 2 - 2) {
         slideIndex = 0;
     } else if (slideIndex < slides.length) {
-        offset = offset - 600;
+        offset = offset - 100;
         slides.forEach((slide) => {
-            slide.style.transform = `translate(${offset}px)`;
+            slide.style.transform = `translate(${offset}%)`;
         });
     } else if (
         slideIndex >= slides.length &&
         slideIndex <= slides.length * 2 - 2
     ) {
         slides.forEach((slide) => {
-            offset = t + 600;
-            slide.style.transform = `translate(${offset}px)`;
+            offset = t + 100;
+            slide.style.transform = `translate(${offset}%)`;
         });
     }
 }, 2000);

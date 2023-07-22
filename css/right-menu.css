@@ -1,11 +1,11 @@
-
 .right-menu {
   position: absolute;
   right: 0;
   top: 0;
   width: 350px;
-  /* height: 100vh; */
-  /* overflow-x: hidden; */
+  overflow: hidden;
+  height: 100vh;
+  border: 3px solid blue;
 }
 
 .right-menu .close-open {
@@ -37,34 +37,31 @@
 
 .right-menu .navigation span {
   font-size: 1.1rem;
-  transition: .2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
-.right-menu .navigation span a{
-    text-decoration: none;
+.right-menu .navigation span a {
+  text-decoration: none;
 }
-.right-menu .navigation span a:hover{
-    text-decoration: underline;
+
+.right-menu .navigation span a:hover {
+  text-decoration: underline;
 }
+
 .right-menu .brief {
-  /* height: 400px; */
   width: 100%;
   display: flex;
   flex-direction: column;
-  
+
   align-items: center;
 }
 
 .right-menu .brief .image {
-  /* width: 90%;
-  height: 90%; */
   margin: 10px;
 }
 
 .right-menu .brief .image img {
-    width: 250px;
-  /* height: 100%; */
-  /* object-fit: cover; */
+  width: 250px;
 }
 
 .right-menu .brief .description {
