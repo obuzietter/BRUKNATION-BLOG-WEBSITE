@@ -49,6 +49,10 @@ body {
     border-style: none;
 }
 
+.left-menu .search-results{
+border: 1px solid var(--pink);
+}
+
 .left-menu .search-results article {
     display: grid;
     grid-template-rows: 50px 100px;
@@ -204,6 +208,7 @@ main .display .date {
         flex-direction: column;
         align-items: center;
         animation: fade-in 0.5s 1 linear;
+        overflow-x: hidden;
     }
 }
 

@@ -30,7 +30,7 @@
 .right-menu .navigation {
   display: flex;
   flex-direction: column;
-  height: 300px;
+  height: 200px;
   justify-content: space-evenly;
   align-items: center;
 }
