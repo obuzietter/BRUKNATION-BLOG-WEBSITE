@@ -49,10 +49,6 @@ body {
     border-style: none;
 }
 
-.left-menu .search-results{
-border: 1px solid var(--pink);
-}
-
 .left-menu .search-results article {
     display: grid;
     grid-template-rows: 50px 100px;
@@ -151,7 +147,7 @@ main .display .date {
 }
 
 ::-webkit-scrollbar {
-    width: 3px;
+    width: 0px;
     border-radius: 100px;
 }
 
@@ -181,9 +177,15 @@ main .display .date {
         padding: 0;
         margin-top: 65px;
         overflow-y: scroll;
-        min-width: 400px;
+        width: 100%;
     }
-
+    .left-menu .search-results{
+        width: 100%;
+        }
+        main{
+            /* border-top: 2px solid white; */
+            /* box-shadow: 15px 15px 55px var(--purple); */
+        }
     main .display .image img {
         width: 100%;
     }
