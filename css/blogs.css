@@ -179,13 +179,11 @@ main .display .date {
         overflow-y: scroll;
         width: 100%;
     }
-    .left-menu .search-results{
+
+    .left-menu .search-results {
         width: 100%;
-        }
-        main{
-            /* border-top: 2px solid white; */
-            /* box-shadow: 15px 15px 55px var(--purple); */
-        }
+    }
+
     main .display .image img {
         width: 100%;
     }
@@ -203,6 +201,7 @@ main .display .date {
         height: 50px;
         z-index: 10;
     }
+
     main .display {
         width: 100%;
         height: auto;
